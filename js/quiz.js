@@ -148,7 +148,7 @@ function showResults(count) {
     quizInfo.remove()
 
     if (rigthAnswers === count) {
-      theResults = `<span class="perfect"</span>, All answers are correct ${rigthAnswers} from ${count}>`
+      theResults = `<span class="perfect">Perfect</span>, All answers are correct ${rigthAnswers} from ${count}`
     }
     else if (rigthAnswers < count && rigthAnswers > count / 2) {
       theResults = `<span class="good">Good</span>, ${rigthAnswers} from ${count} are correct`
